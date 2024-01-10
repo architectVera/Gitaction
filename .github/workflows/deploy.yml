@@ -2,8 +2,8 @@ name: Continuous Integration
 on:
     push:
         branches:
-            -master
-            -jenk
+            - master
+            - jenk
     workflow_dispatch:
 jobs:
     my_first_job:
