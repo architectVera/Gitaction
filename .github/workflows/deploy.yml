@@ -29,11 +29,11 @@ jobs:
               run: 'ls -la'
               
             - name: Install Dependencies
-              run: 'mnv compile'
+              run: 'mvn compile'
               
             - name: Build application
-              run: 'mnv package -DskipTests'
+              run: 'mvn package -DskipTests'
 
             - name: Test application
-              run: 'mnv test'  
+              run: 'mvn test'  
 
